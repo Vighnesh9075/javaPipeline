@@ -10,7 +10,7 @@ pipeline {
 
         stage('compile') {
             steps {
-                bat 'javavc Hello.java'
+                bat 'javac Hello.java'
             }
         }
 
